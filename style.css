@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.header {
+    display: flex;
+    padding: 1em;
+    background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    border-bottom: solid 2px #F9FAF8;
+}
+
+.header-logo{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+    width: 50%;
+    margin: 1em 0;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 2em;
+    
+}
+
+a {
+    text-decoration: none;
+    color:  #F9FAF8;
+}
+a:hover{
+    color: aquamarine;
+    text-decoration: underline;
+}
+
+.hero {
+    display: flex;
+    color: #F9FAF8;
+    background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
+    padding: 90px;
+}
+
+.awesome {
+    flex-basis: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-right: 50px;
+}
+
+.awesome > p{
+    opacity: 0.7;
+}
+
+.awesome > h1{
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+    margin: 0;
+
+}
+
+.awesome > button {
+    display: block;
+    text-align: center;
+    width: 110px;
+    border: none;
+    background-color: #3882f6;
+    padding: 10px;
+    border-radius: 8px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+img{
+    width: 500px;
+    height: 350px;
+    border-radius: 10px;
+}
+
+.inf{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2em;
+    padding-bottom: 3.5em;
+}
+
+.pics{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10em;
+    flex-wrap: wrap;
+}
+
+.pic{
+    height: 200px;
+    width: 200px;
+    border: solid red 2px;
+    text-align: center;
+}
+
+.pic-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inf > h1{
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+    margin-bottom: 1.5em;
+}
+
+.pic-container > p {
+    color: #1F2937;
+}
+ 
+.pic-1 > img{
+    height: 200px;
+    width: 250px;
+    border-radius: 10px;
+}
+.pic-2 > img{
+    height: 200px;
+    width: 250px;
+    border-radius: 10px;
+}
+.pic-3 > img{
+    height: 200px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.pic-4 > img{
+    height: 200px;
+    width: 250px;
+    border-radius: 10px;
+}
